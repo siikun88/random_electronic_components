@@ -1,0 +1,92 @@
+.title{
+    font-size: 50px;
+}
+.menu{
+    font-size: 20px;
+}
+.center{
+    text-align:center;
+}
+#electronic_components{
+    margin: auto;
+    background-color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    width: 750px;
+}
+#volume{
+    font-size: 20px;
+    position: relative;
+    border-radius: 2px;
+    border: 2px solid #0171BD;
+    border-radius: 50px;
+    background: #ffffff;
+    padding: 5px;
+}
+label{
+  display:block;
+  position:relative;
+  padding-left:1em;
+}
+label input{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+  }
+  a.btn--orange:hover {
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+  }
+  a.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  }

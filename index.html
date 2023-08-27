@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>ランダム電子部品ガチャ</title>
+</head>
+<body style="background-color: rgb(251, 249, 245);">
+    <h1 class="center title">ランダム電子部品ガチャ</h1>
+    <div id="electronic_components">
+        <h2 id="text1">ここに結果が表示されます。</h2>
+        <h2 id="text2"></h2>
+        <h2 id="text3"></h2>
+        <h2 id="text4"></h2>
+        <h2 id="text5"></h2>
+        <h2 id="text6"></h2>
+        <h2 id="text7"></h2>
+        <h2 id="text8"></h2>
+        <h2 id="text9"></h2>
+        <h2 id="text10"></h2>
+    </div>
+    <h2  class="center menu">＜表示部品数＞</h2>
+    <div class="center">
+        <form name="form1">
+            <select id="volume">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </form>
+        <br><a onclick="clickBtn()" class="btn btn--orange btn--cubic btn--shadow">引き直す</a>
+    </div>
+</body>
+</html>
